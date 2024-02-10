@@ -1,0 +1,57 @@
+a:link {
+zcolor: #34ebdb;
+}
+a:visited {
+color: #005d5e;
+}
+a:hover {
+color: #ffffff;
+}
+
+body {
+  align: center;
+  font-family: tahoma, arial;
+  background-color: #303038;
+  color: #c0c0c0;
+}
+
+body hr {
+  border: 1px dashed #808080;
+}
+
+body h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-shadow:1px 1px 1px #000000, 1.5px 1.5px 1.5px #34ebdb;
+  color: #c0c0c0;
+}
+
+body td.deetz {
+  text-align: right;
+}
+
+div#outer {
+  padding: 5% 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+div#title {
+  font-weight: bold;
+  font-size: 32px;
+  text-shadow:1px 1px 1px #000000, 1.5px 1.5px 1.5px #34ebdb;
+  color: #c0c0c0;
+}
+
+div#loves {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+div.copymeh {
+  margin-bottom: 10px;
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+}

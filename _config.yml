@@ -1,2 +1,1 @@
-exclude: no_dist README 
-
+exclude: [ no_dist, README ]

@@ -1,5 +1,8 @@
+a {
+color: #34ebdb;
+}
 a:link {
-zcolor: #34ebdb;
+color: #34ebdb;
 }
 a:visited {
 color: #005d5e;

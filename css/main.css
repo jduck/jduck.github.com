@@ -34,7 +34,7 @@ body td.deetz {
 }
 
 div#outer {
-  padding: 5% 0;
+  padding: 40px 0;
   margin-left: auto;
   margin-right: auto;
   width: 800px;
@@ -53,8 +53,5 @@ div#loves {
 }
 
 div.copymeh {
-  margin-bottom: 10px;
-  position: absolute;
-  bottom: 0;
   font-size: 14px;
 }

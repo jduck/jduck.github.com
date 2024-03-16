@@ -15,19 +15,21 @@ Welcome! My name is Josh. I go by "jduck" on the Internet.
 </div>
 
 <h2>Background</h2>
-I am an autodidact that is insatiably curious about myriad security topics,
-including; computer architectures, Linux and Android internals, reverse engineering,
+I am an autodidact that is insatiably curious about myriad computer and technology topics,
+including; architectures, protocols, operating systems, firmware, reverse engineering,
 vulnerability research, and secure development.
 <br/><br />
 My first time on the internet involved an external 2400 baud dial-up modem.
 Going all the way back to the BBS days, I showed a propensity for security research, aka "What happens when I do this?"
 This innate skill has served me well throughout the years and provided quite an interesting career.
+<br /><br />
+You can read more about my professional experience on LinkedIn.
 
 
 <h2>Contact Details</h2>
 
 If there is something you think I can help you with, feel free to reach out.
-I am in the "don't ask to ask" camp, so feel fre to PM away. If you see "jduck",
+I am in the "don't ask to ask" camp, so feel free to PM away. If you see "jduck",
 it's probably me. Once upon a time, I was on IRC, but not really anymore.
 
 <ul>
@@ -39,10 +41,79 @@ it's probably me. Once upon a time, I was on IRC, but not really anymore.
 <tr><td><li>X / Twitter</td><td class="deetz"><a href="https://x.com/jduck">jduck</a></td></tr>
 <tr><td><li>Mastadon</td><td class="deetz"><a href="https://infosec.exchange/@jduck">jduck</a></td></tr>
 <tr><td><li>Discord</td><td class="deetz">jduck1337</td></tr>
+<tr><td><li>YouTube</td><td class="deetz"><a href="https://www.youtube.com/@jduck31337/playlists">jduck31337</a></td></tr>
 </table>
 </ul>
 
 
 <h2>Published Works</h2>
 
-When time permits, I will collect some of my public works here... In the meantime, maybe you can discover them on your own &#x1F60A;
+When time permits, I will update my public works here... In the meantime, maybe you can discover them on your own &#x1F60A;
+
+<h3>Writing</h3>
+<ul>
+<li><u>Book</u>: <a href="https://www.wiley.com/en-us/Android+Hacker%27s+Handbook-p-9781118608647">Android Hacker's Handbook</a>. March 2014. Drake, Fora, Lanier, Mulliner, Ridley, and Wicherski.
+</ul>
+
+<h3>Developed Tools</h3>
+<ul>
+<li>IDA Pro / Hex Rays Superfluous Local Variable tool (iDefense, 2009)<br />
+Download: <a href="https://github.com/jduck/sf_lvars">original source code</a><br />
+Functionality was later merged into IDA.
+</li>
+</ul>
+
+<h3>Public Speaking</h3>
+<ul class="pub">
+
+<li class="pub"><u>Upcoming</u>: <a href="https://cansecwest2024.sched.com/event/1Zl0m/developing-secure-software-in-2024">Developing Secure Software in 2024 / CanSecWest</a></li>
+<br />
+
+<li class="pub">"Owning Enterprise Mail via Nth Party Software" at Toorcon 11, October 24<sup>th</sup> 2009.<br />
+Sean Larsson and Joshua J. Drake of VeriSign iDefense Labs<br />
+<br />
+Sean and I presented our research into the Autonomy KeyView and Oracle
+Outside-In document file format SDKs are embedded into
+IBM Lotus Notes, Blackberry Enterprise Server, Symantec Messaging
+Gateway, and Good Mobile Messaging. Using rudimentary dumb fuzzing, we were
+able to discover several vulnerabilities and develop working remote code
+execution exploits for them. While some issues required user
+interaction (such as previewing an attachment), it's important to note that
+the attack can be sent to many employees and only a small subset need interact.<br />
+<br />
+Slides/Tools: <a href="/pubs/toorcon2009-nth-party-software.zip">toorcon2009-nth-party-software.zip</a><br />
+Video: not available<br />
+Additional links: <a href="https://blogs.oracle.com/solaris/post/toorcon-11#nthpartysw">Oracle Blog</a>
+</li>
+
+</ul>
+
+<h3>Vulnerability Discoveries</h3>
+<ul>
+<table class="cves">
+
+<tr>
+<td class="cve"><li>
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1010">CVE-2009-1010</a></td>
+<td class="cvedeet">Multiple Vendor Outside In Spreadsheet Integer Overflows (<a href="https://web.archive.org/web/20090821200540/http://labs.idefense.com/intelligence/vulnerabilities/display.php?id=799">Advisory</a>)
+</td></tr>
+
+<tr>
+<td class="cve"><li>
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-1009">CVE-2009-1009</a></td>
+<td class="cvedeet">Multiple Vendor Outside In Multiple Spreadsheet Buffer Overflows (<a href="https://web.archive.org/web/20090821102255/http://labs.idefense.com/intelligence/vulnerabilities/display.php?id=801">Advisory</a>)
+</td></tr>
+
+<tr>
+<td class="cve"><li>
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3037">CVE-2009-3037</a></td>
+<td class="cvedeet">Autonomy KeyView OLE Document Integer Overflow (<a href="https://web.archive.org/web/20100308015206/http://labs.idefense.com/intelligence/vulnerabilities/display.php?id=858">Advisory</a>)
+</td></tr>
+
+<tr>
+<td class="cve"><li>
+<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3032">CVE-2009-3032</a></td>
+<td class="cvedeet">Autonomy KeyView Excel File SST Parsing Integer Overflow (<a href="https://web.archive.org/web/20100116000133/http://labs.idefense.com/intelligence/vulnerabilities/display.php?id=823">Advisory</a>)
+</td></tr>
+
+</table>
